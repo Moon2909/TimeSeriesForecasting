@@ -1,0 +1,6 @@
+﻿Name,Type,Latitude,Longitude,Label
+TMU M50 010.0 N,Traffic,53.39524,-6.33667,station1
+TMU M50 015.0 S,Traffic,53.37088,-6.37571,station2
+TMU M50 020.0 N,Traffic,53.34553,-6.38715,station3
+TMU M50 015.0 N,Traffic,53.31346,-6.36333,station4
+PHOENIX PARK,Weather,53.36361,-6.34972,weather
