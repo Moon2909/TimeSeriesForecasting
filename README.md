@@ -1,7 +1,8 @@
 # TimeSeriesForecasting
-Imputation Methods for Continuous Missing Values and LSTM Multivariate Forecasting in Time Series Data of Traffic Flow
-
 **PHƯƠNG PHÁP ĐIỀN CÁC GIÁ TRỊ KHUYẾT LIÊN TỤC VÀ MÔ HÌNH LSTM DỰ BÁO ĐA BIẾN TRONG DỮ LIỆU TIME SERIES VỀ LƯU LƯỢNG GIAO THÔNG**
+
+***Imputation Methods for Continuous Missing Values and LSTM Multivariate Forecasting in Time Series Data of Traffic Flow***
+
 
 Nguyen Thi Hoang Anh†, Nguyen Ha Dung†, Ho Thanh Duy Khanh† and Nguyen Thi Nguyet†
 
