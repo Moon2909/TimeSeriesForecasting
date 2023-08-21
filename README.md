@@ -74,6 +74,7 @@ Thực tế, ta không thể đánh giá được độ hiệu quả của các 
 **- Sử dụng mô hình Random Forests với phương pháp lặp MICE (Multiple Imputation by Chained Equations)**
 
 Phương pháp sử dụng thư viện miceforest, với cơ chế sử dụng LightGBM trong một phương pháp lặp được gọi là MICE.
+
 ***Hình 9. Cơ chế hoạt động thuật toán MICE***
 ![MICE](https://github.com/Moon2909/TimeSeriesForecasting/blob/main/Picture/MICE_Algorithm.png)
 
