@@ -76,11 +76,11 @@ Phương pháp sử dụng thư viện miceforest, với cơ chế sử dụng L
 ***Hình 9. Cơ chế hoạt động thuật toán MICE***
 ![MICE](https://github.com/Moon2909/TimeSeriesForecasting/blob/main/Picture/MICE_Algorithm.png)
 
-**- Phương pháp Seasonal Moving Window Average (SMWA)**
+- **Phương pháp Seasonal Moving Window Average (SMWA)**
 
 SMWA là phương pháp kết hợp giữa nội suy tuyến tính và trung bình trượt. Cụ thể hơn, trước khi điền thiếu, chuỗi thời gian được phân rã thành các thành phần xu hướng, mùa vụ và phần dư. Chuỗi xu hướng là một chuỗi đơn giản chỉ có tính tăng hoặc giảm nên ta áp dụng phương pháp nội suy tuyến tính để điền thiếu chuỗi này. Đối với chuỗi mùa vụ và phần dư thì có cấu trúc phức tạp hơn, vì thế kĩ thuật trung bình trượt được áp dụng đối với chuỗi này. Sau khi sử dụng 2 phương pháp khác nhau để điền thiếu các thành phần được phân rã, ta gộp các thành phần này lại thành một chuỗi hoàn thiện đã được điền khuyết.
 
-**- Phương pháp Seasonal Moving Window Average (SMWA)**
+- **Phương pháp Seasonal Moving Window Average (SMWA)**
 
 Phương pháp DTWBI cho phép điền chuỗi thời gian đơn biến với số lượng lớn dữ liệu bị thiếu. Đặt t_gap là vị trí bắt đầu đoạn thiếu và T_gap là kích thước của đoạn. Thuật toán tạo ra cửa sổ trượt ngay sau đoạn thiếu (Qa) nếu t_gap nằm ở nửa đầu chuỗi thời gian, ngược lại thì cửa sổ trượt được tạo ngay trước đoạn thiếu (Qb). Cửa sổ Qa và Qb có kích thước bằng T_gap. Sau đó, thuật toán tìm ra cửa sổ tương tự nhất với Qa và Qb bằng cách trượt cửa sổ tới hai đầu mút của chuỗi. Cửa số giống với Qa hoặc Qb nhất sẽ được điền vào khoảng trống. 
 
